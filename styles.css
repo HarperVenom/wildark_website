@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  min-height: 100svh;
+  background-color: #ffd09b;
+  font-family: "Alegreya Sans", sans-serif;
+
+  .wrapper {
+    max-width: 800px;
+    margin-inline: auto;
+    padding: 1rem;
+
+    color: rgb(41, 36, 24);
+  }
+
+  header {
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-wrap: balance;
+
+    .title {
+      font-family: "Vollkorn SC", serif;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 400;
+    font-size: 1.6rem;
+    gap: 2rem;
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+
+      padding-bottom: 2rem;
+      border-bottom: 1px solid black;
+
+      h2 {
+        width: 100%;
+        padding: rem 0;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+
+      ol,
+      ul {
+        width: 100%;
+        padding-left: 2rem;
+        /* list-style: outside; */
+        li {
+          margin-bottom: 0.5rem;
+
+          /* padding-left: 1rem; */
+          /* background-color: bisque; */
+        }
+      }
+
+      img {
+        width: 70%;
+      }
+
+      p {
+        width: 100%;
+        /* margin-bottom: 1rem; */
+      }
+
+      figure {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        figcaption {
+          font-size: 1.5rem;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+
+    a {
+      color: rgb(41, 36, 24);
+      padding: 0 2rem;
+    }
+  }
+}
