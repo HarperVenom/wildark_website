@@ -14,16 +14,14 @@ body {
   .wrapper {
     max-width: 800px;
     margin-inline: auto;
-    padding: 1rem;
+    padding: 1.5rem;
 
     color: rgb(41, 36, 24);
   }
 
   header {
     font-size: 1.7rem;
-    padding: 1rem;
     margin-top: 1rem;
-    margin-bottom: 3rem;
     text-wrap: balance;
 
     .title {
@@ -36,9 +34,8 @@ body {
     }
 
     .info {
-      display: flex;
-      justify-content: center;
-      gap: 3rem;
+      margin: 3rem 0;
+      flex-wrap: wrap;
     }
   }
 
@@ -70,22 +67,18 @@ body {
       ul {
         width: 100%;
         padding-left: 2rem;
-        /* list-style: outside; */
         li {
           margin-bottom: 0.5rem;
-
-          /* padding-left: 1rem; */
-          /* background-color: bisque; */
         }
       }
 
       img {
-        width: 70%;
+        width: 100%;
+        max-width: 600px;
       }
 
       p {
         width: 100%;
-        /* margin-bottom: 1rem; */
       }
 
       figure {
